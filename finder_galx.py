@@ -1,13 +1,6 @@
 import streamlit as st
 from preprocessing import load_data
-# import pandas as pd
-# import matplotlib as plt
-# import matplotlib.pyplot as plt
-# import seaborn as sns
-# import numpy as np
 from PIL import Image
-# import plotly.express as px
-# import plotly.figure_factory as ff
 
 
 def app():

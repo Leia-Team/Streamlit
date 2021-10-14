@@ -1,11 +1,7 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
 from PIL import Image
-import plotly.express as px
-import plotly.figure_factory as ff
+
 
 
 def load_data(type):
@@ -19,13 +15,10 @@ def load_data(type):
 
 def app():
 
-    header = st.beta_container()
-    body = st.beta_container()
-    activities = st.beta_container()
-    github = st.beta_container()
-    # dataset = st.beta_container()
-    # conclusion = st.beta_container()
-    # footer = st.beta_container()
+    header = st.container()
+    body = st.container()
+    activities = st.container()
+    github = st.container()
     with header:
         st.title('Preprocessing Galaxy-data')  # site title h1
         st.text(' ')

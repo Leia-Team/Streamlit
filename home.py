@@ -1,13 +1,6 @@
 import streamlit as st
-# import streamlit as st
-# import pandas as pd
-# import matplotlib as plt
-# import matplotlib.pyplot as plt
-# import seaborn as sns
-# import numpy as np
 from PIL import Image
-# import plotly.express as px
-# import plotly.figure_factory as ff
+
 
 
 def app():
@@ -34,7 +27,7 @@ def app():
         st.text(' ')
         with team:
             st.header('Team')
-            col1, col2, col3, col4 = st.beta_columns(4)
+            col1, col2, col3, col4 = st.columns(4)
             with col1:
                 image = Image.open('images/than.jpg')
                 st.image(image, caption="")
